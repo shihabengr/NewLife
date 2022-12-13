@@ -1,0 +1,89 @@
+@media (max-width:991px){
+    .my-nav .logo-body{
+        display: none;
+    }
+    .my-nav .logo-body::after{
+        display: none;
+    }
+    .about-right{
+        margin-bottom: 20px;
+    }
+    .about-sub{
+        width:100%;
+    }
+    .care-text, .care-text .common-text1{
+        text-align:start;
+    }
+    .lab-width{
+        width:100%;
+     }
+     .lab-width .common-text1{
+        margin-bottom: 20px;
+     }
+    .care-text{
+        margin-top: 30px;
+    }
+    
+}
+@media only screen and (max-width: 767px) {
+    .head-video{
+        height: 80vh;
+    }
+	.welcome-text span {
+        font-size: 50px;
+    }
+	.carousel-caption {
+		bottom: 165px
+	}
+	.carousel-caption h5 {
+		font-size: 16px
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 14px
+	}
+}
+
+@media (max-width:575px){
+    .about-img{
+        border:15px solid #9C9ED6;
+    }
+    .lab-doctor{
+        margin-top: 40px;
+    }
+    .welcome-text p {
+        width: 80%;
+      }
+    .welcome-text span {
+        font-size: 35px;
+    }
+    
+}
+@media (max-width:520px){
+    .wrapper .card1{
+         width:300px;
+    }
+    .hide2{
+        display: block;
+    }
+    .hide1{
+        display:none;
+    }
+    .lab-width{
+        width:100%;
+     }
+     .slider{
+     padding-top:25px;
+     }
+    }
+@media (max-width:433px){
+    .head-btn{
+        margin-bottom:12px;
+    }
+    .my-caro{
+        height: 400px;
+    }
+    .doc-details-ani{
+        margin-bottom:30px;
+    }
+}
